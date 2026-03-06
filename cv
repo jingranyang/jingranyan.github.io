@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Jingran Yang</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<style>
+
+body{
+background:black;
+margin:0;
+font-family: Georgia, serif;
+color:white;
+}
+
+.page{
+margin-left:160px;
+margin-top:60px;
+display:flex;
+}
+
+.sidebar{
+width:260px;
+background:#7a4a12;
+padding:30px;
+padding-bottom:40px;
+text-align:center;
+  min-height:640px
+}
+
+.photo{
+width:160px;
+margin-bottom:15px;
+}
+
+.name{
+font-size:32px;
+margin-bottom:30px;
+}
+
+.menu a{
+display:block;
+margin:22px 0;
+font-size:22px;
+color:white;
+text-decoration:none;
+}
+
+.menu a:hover{
+color:#f2d1a0;
+}
+
+.main{
+flex:1;
+}
+
+.header{
+height:255px;
+width:900px;
+background-image:url("header.jpeg");
+background-size:cover;
+background-position:center;
+}
+
+.content{
+width:800px;
+padding-top:30px;
+margin-left:50px;
+text-align:justify;
+line-height:1.7;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="sidebar">
+
+<img class="photo" src="headshot.jpeg">
+
+<div class="name">Jingran Yang</div>
+
+<div class="menu">
+
+<a href="index.html">Home</a>
+
+<a href="research.html">Research</a>
+
+<a href="cv.html">CV</a>
+
+<a href="contact.html">Contact</a>
+
+</div>
+
+</div>
+
+<div class="main">
+
+<div class="header"></div>
+
+<div class="content">
+
+<p>
+You can download my CV 
+<a href="CV-LATEX2024.pdf" class="btn" target="_blank">here</a>.
+</p>
+
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
