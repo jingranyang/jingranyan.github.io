@@ -1,1 +1,196 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+
+<title>Media | Jingran Yang</title>
+
+<link rel="icon" type="image/png" href="favicon.png">
+
+<link rel="canonical" href="https://jingranyang.com/media.html">
+
+<meta property="og:site_name" content="Jingran Yang">
+
+<style>
+
+body{
+background:black;
+margin:0;
+font-family:Georgia, serif;
+color:white;
+}
+
+.page{
+margin-left:160px;
+margin-top:60px;
+display:flex;
+}
+
+.sidebar{
+width:260px;
+background:#7a4a12;
+padding:30px;
+padding-bottom:40px;
+text-align:center;
+min-height:640px;
+}
+
+.photo{
+width:160px;
+margin-bottom:15px;
+}
+
+.name{
+font-size:32px;
+margin-bottom:30px;
+}
+
+.menu a{
+display:block;
+margin:22px 0;
+font-size:22px;
+color:white;
+text-decoration:none;
+}
+
+.menu a:hover{
+color:#f2d1a0;
+}
+
+/* Highlight the current page */
+.menu a.active{
+color:#f2d1a0;
+}
+
+.main{
+flex:1;
+}
+
+.header{
+height:255px;
+width:900px;
+background-image:url("header.jpeg");
+background-size:cover;
+background-position:center;
+}
+
+.content{
+width:800px;
+padding-top:30px;
+margin-left:50px;
+text-align:left;
+line-height:1.7;
+}
+
+.content h1{
+font-size:32px;
+margin-bottom:35px;
+}
+
+.media-item{
+margin-bottom:40px;
+}
+
+.media-item h2{
+font-size:24px;
+margin-bottom:8px;
+}
+
+.media-item p{
+margin:8px 0;
+}
+
+.media-item a{
+color:#f2d1a0;
+text-decoration:none;
+}
+
+.media-item a:hover{
+text-decoration:underline;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="sidebar">
+
+<img class="photo" src="headshot.jpeg" alt="Jingran Yang">
+
+<div class="name">Jingran Yang</div>
+
+<div class="menu">
+
+<a href="index.html">Home</a>
+
+<a href="research.html">Research</a>
+
+<a href="media.html" class="active">Media</a>
+
+<a href="cv.html">CV</a>
+
+<a href="contact.html">Contact</a>
+
+</div>
+
+</div>
+
+<div class="main">
+
+<div class="header"></div>
+
+<div class="content">
+
+<h1>Media &amp; Interviews</h1>
+
+<div class="media-item">
+
+<h2>Political Studies Review Author Interview</h2>
+
+<p>
+<strong>
+Misreading Social Identity Theory: Why Affective-Polarisation Research Got It Wrong
+</strong>
+</p>
+
+<p>
+<em>Political Studies Review Author Interview Series, 2026</em>
+</p>
+
+<p>
+In this interview, I discuss the central argument of my article,
+its implications for affective-polarisation research, and directions
+for future research.
+</p>
+
+<p>
+<em>Video forthcoming.</em>
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer style="padding:30px 0; font-size:10px; color:#999; margin-left:220px;">
+
+<div>
+© <span id="year"></span> Jingran Yang. All rights reserved.
+</div>
+
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+
+</html>
